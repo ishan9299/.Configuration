@@ -1,0 +1,9 @@
+[submodule "nvim/.config/nvim/pack/plugins/opt/nvim-solarized-lua"]
+	path = nvim/.config/nvim/pack/plugins/opt/nvim-solarized-lua
+	url = https://github.com/ishan9299/nvim-solarized-lua
+[submodule "nvim/.config/nvim/pack/plugins/opt/modus-theme-vim"]
+	path = nvim/.config/nvim/pack/plugins/opt/modus-theme-vim
+	url = https://github.com/ishan9299/modus-theme-vim
+[submodule "nvim/.config/nvim/pack/plugins/opt/mini.nvim"]
+	path = nvim/.config/nvim/pack/plugins/opt/mini.nvim
+	url = https://github.com/echasnovski/mini.nvim
