@@ -30,7 +30,8 @@ vim.opt.listchars      = {
   trail                = '•',                              -- BULLET (U+2022, UTF-8: E2 80 A2)
 }
 
-vim.opt.scrolloff      = 3    -- start scrolling 3 lines before edge of viewport
+vim.opt.wrap          = false
+vim.opt.scrolloff     = 3                       -- start scrolling 3 lines before edge of viewport
 vim.opt.shortmess     = vim.opt.shortmess + 'A' -- ignore annoying swapfile messages
 vim.opt.shortmess     = vim.opt.shortmess + 'I' -- no splash screen
 vim.opt.shortmess     = vim.opt.shortmess + 'O' -- file-read message overwrites previous
@@ -43,6 +44,7 @@ vim.opt.shortmess     = vim.opt.shortmess + 't' -- truncate file messages at sta
 vim.opt.showbreak     = '↳ '                    -- DOWNWARDS ARROW WITH TIP RIGHTWARDS (U+21B3, UTF-8: E2 86 B3)
 vim.opt.showcmd       = false                   -- don't show extra info at end of command line
 vim.opt.termguicolors = true
+vim.opt.mouse         = 'a'                     -- enable mouse
 -- 1}}}
 
 -- Globals {{{1
