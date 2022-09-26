@@ -10,7 +10,7 @@ window:
 font:
   normal:
     family: CaskaydiaCove Nerd Font Mono
-  size: 12.0
+  size: 17.0
 
 # Colors (Base16 Default Dark)
 colors:
