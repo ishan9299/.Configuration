@@ -12,6 +12,10 @@ zmodload zsh/complist
 compinit
 _comp_options+=(globdots)
 
+HISTSIZE=10000000
+SAVEHIST=10000000
+HISTFILE="${XDG_CACHE_HOME:-$HOME/.cache}/zsh/history"
+
 # Use vim keys in tab complete menu:
 bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'k' vi-up-line-or-history
