@@ -7,3 +7,9 @@
 [submodule "nvim/.config/nvim/pack/plugins/opt/mini.nvim"]
 	path = nvim/.config/nvim/pack/plugins/opt/mini.nvim
 	url = https://github.com/echasnovski/mini.nvim
+[submodule "nvim/.config/nvim/pack/plugins/opt/minimal.nvim"]
+	path = nvim/.config/nvim/pack/plugins/opt/minimal.nvim
+	url = https://github.com/Yazeed1s/minimal.nvim
+[submodule "nvim/.config/nvim/pack/plugins/opt/odin.vim"]
+	path = nvim/.config/nvim/pack/plugins/opt/odin.vim
+	url = https://github.com/Tetralux/odin.vim
